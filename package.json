@@ -4,7 +4,8 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "postcss css/style.css -o css/style.min.css",
+    "watch": "watch \"npm run build:css\" ./"
   },
   "repository": {
     "type": "git",
