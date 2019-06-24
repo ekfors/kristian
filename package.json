@@ -21,6 +21,6 @@
     "watch": "^1.0.2"
   },
   "devDependencies": {
-    "tailwindcss": "^1.0.2"
+    "tailwindcss": "^1.0.4"
   }
 }
